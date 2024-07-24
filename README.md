@@ -2,7 +2,13 @@
 
 Provide utility classes to work with United States holidays.
 
-Currently on federal holdays are supported.
+Currently only federal holidays are supported.
+
+## Install
+
+```
+yarn add us-holidays
+```
 
 ## Usage
 
