@@ -1,10 +1,13 @@
 {
-  "name": "untitled-app",
+  "name": "us-holidays",
   "version": "0.1.0",
-  "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT",
+  "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "lint": "tsc --noEmit ./src/*.ts && eslint --fix '**/*.{ts,tsx,js,jsx}' && prettier --write . && sort-package-json",
+    "prepublishOnly": "tsc src/index.ts --declaration --outDir .",
+    "postpublish": "rm index.js index.d.ts year.js year.d.ts",
     "test": "tsx -r dotenv-override-true/config src/index.ts"
   },
   "devDependencies": {
