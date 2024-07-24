@@ -6,6 +6,7 @@ describe('Year', () => {
     expect(year2024.newYearsDay).toBe('2024-01-01');
     expect(year2024.martinLutherKingJrDay).toBe('2024-01-15');
     expect(year2024.washingtonsBirthday).toBe('2024-02-19');
+    expect(year2024.goodFriday).toBe('2024-03-29');
     expect(year2024.memorialDay).toBe('2024-05-27');
     expect(year2024.juneteenthNationalIndependenceDay).toBe('2024-06-19');
     expect(year2024.independenceDay).toBe('2024-07-04');
@@ -19,6 +20,7 @@ describe('Year', () => {
     expect(year2023.newYearsDay).toBe('2023-01-01');
     expect(year2023.martinLutherKingJrDay).toBe('2023-01-16');
     expect(year2023.washingtonsBirthday).toBe('2023-02-20');
+    expect(year2023.goodFriday).toBe('2023-04-07');
     expect(year2023.memorialDay).toBe('2023-05-29');
     expect(year2023.juneteenthNationalIndependenceDay).toBe('2023-06-19');
     expect(year2023.independenceDay).toBe('2023-07-04');
@@ -32,6 +34,7 @@ describe('Year', () => {
     expect(year2022.newYearsDay).toBe('2022-01-01');
     expect(year2022.martinLutherKingJrDay).toBe('2022-01-17');
     expect(year2022.washingtonsBirthday).toBe('2022-02-21');
+    expect(year2022.goodFriday).toBe('2022-04-15');
     expect(year2022.memorialDay).toBe('2022-05-30');
     expect(year2022.juneteenthNationalIndependenceDay).toBe('2022-06-19');
     expect(year2022.independenceDay).toBe('2022-07-04');
@@ -45,6 +48,7 @@ describe('Year', () => {
     expect(year2021.newYearsDay).toBe('2021-01-01');
     expect(year2021.martinLutherKingJrDay).toBe('2021-01-18');
     expect(year2021.washingtonsBirthday).toBe('2021-02-15');
+    expect(year2021.goodFriday).toBe('2021-04-02');
     expect(year2021.memorialDay).toBe('2021-05-31');
     expect(year2021.juneteenthNationalIndependenceDay).toBe('2021-06-19');
     expect(year2021.independenceDay).toBe('2021-07-04');
@@ -58,6 +62,7 @@ describe('Year', () => {
     expect(year2020.newYearsDay).toBe('2020-01-01');
     expect(year2020.martinLutherKingJrDay).toBe('2020-01-20');
     expect(year2020.washingtonsBirthday).toBe('2020-02-17');
+    expect(year2020.goodFriday).toBe('2020-04-10');
     expect(year2020.memorialDay).toBe('2020-05-25');
     expect(year2020.juneteenthNationalIndependenceDay).toBe('2020-06-19');
     expect(year2020.independenceDay).toBe('2020-07-04');

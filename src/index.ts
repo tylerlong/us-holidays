@@ -20,6 +20,7 @@ export class Holidays {
     "Washington's Birthday",
     (year: number) => new Year(year).washingtonsBirthday,
   );
+  public static goodFriday = new Holiday('Good Friday', (year: number) => new Year(year).goodFriday);
   public static memorialDay = new Holiday('Memorial Day', (year: number) => new Year(year).memorialDay);
   public static juneteenthNationalIndependenceDay = new Holiday(
     'Juneteenth National Independence Day',
@@ -36,6 +37,7 @@ export class Holidays {
     Holidays.newYearsDay,
     Holidays.martinLutherKingJrDay,
     Holidays.washingtonsBirthday,
+    Holidays.goodFriday,
     Holidays.memorialDay,
     Holidays.juneteenthNationalIndependenceDay,
     Holidays.independenceDay,
