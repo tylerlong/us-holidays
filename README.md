@@ -2,7 +2,9 @@
 
 Provide utility classes to work with United States holidays.
 
-Currently only federal holidays are supported.
+Currently 11 federal holidays are supported.
+
+Good Friday is also supported.
 
 ## Install
 
