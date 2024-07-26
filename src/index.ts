@@ -47,4 +47,8 @@ export class Holidays {
     Holidays.thanksgivingDay,
     Holidays.christmasDay,
   ];
+
+  public static getHoliday(name: string): Holiday | undefined {
+    return Holidays.all.find((holiday) => holiday.name === name);
+  }
 }
