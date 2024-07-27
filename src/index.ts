@@ -29,7 +29,7 @@ export class Holidays {
   public static juneteenthNationalIndependenceDay = new Holiday(
     'Juneteenth National Independence Day',
     (year: number) => new Year(year).juneteenthNationalIndependenceDay,
-    2021,
+    2022,
   );
   public static independenceDay = new Holiday(
     'Independence Day',
