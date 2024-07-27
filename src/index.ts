@@ -2,9 +2,9 @@ import Year from './year';
 
 export class Holiday {
   public name: string;
-  public getter: (year: number) => string;
+  public getter: (year: number) => Date;
 
-  public constructor(name: string, getter: (year: number) => string) {
+  public constructor(name: string, getter: (year: number) => Date) {
     this.name = name;
     this.getter = getter;
   }
