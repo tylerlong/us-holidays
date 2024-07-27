@@ -6,6 +6,8 @@ Currently 11 federal holidays are supported.
 
 Good Friday is also supported.
 
+Martin Luther King Jr. Day started in 1986. However, the stock market only started observing it in 1998. This library uses the 1998 date.
+
 ## Install
 
 ```

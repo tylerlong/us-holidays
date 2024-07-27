@@ -17,7 +17,7 @@ export class Holidays {
   public static martinLutherKingJrDay = new Holiday(
     'Martin Luther King Jr. Day',
     (year: number) => new Year(year).martinLutherKingJrDay,
-    1986,
+    1998,
   );
   public static washingtonsBirthday = new Holiday(
     "Washington's Birthday",
